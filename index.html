@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
-  <title>Bee Mind 申込フォーム</title>
+  <title>Bee Mind 申込フォーム v1.7</title>
   <style>
     body { font-family: sans-serif; margin: 40px; }
     label { display: block; margin-top: 15px; }
@@ -55,7 +55,7 @@
       const data = Object.fromEntries(formData.entries());
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/AKfycbw5lrDSEYzZlZCAWFT61HWPQMGm1LHsRm0Zz5oYLDBl2AkCqQVPiUDklVd8-agU9KTDtQ/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbyy32h-1tIHcYiCg0DNgiPXM097YzSrlEolbjjHT1Qb9d-L1W5WzwSJQwL9l12U8tMKuA/exec", {
           method: "POST",
           body: JSON.stringify(data),
                 headers: {
