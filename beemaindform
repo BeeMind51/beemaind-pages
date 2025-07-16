@@ -55,7 +55,7 @@
       const data = Object.fromEntries(formData.entries());
 
       try {
-        const response = await fetch("https://script.google.com/macros/s/【ここにGASのWebアプリURL】/exec", {
+        const response = await fetch("https://script.google.com/macros/s/AKfycbw5lrDSEYzZlZCAWFT61HWPQMGm1LHsRm0Zz5oYLDBl2AkCqQVPiUDklVd8-agU9KTDtQ/exec", {
           method: "POST",
           body: JSON.stringify(data),
           headers: {
